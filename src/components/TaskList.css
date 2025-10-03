@@ -1,0 +1,16 @@
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 40vh;
+  overflow-y: scroll;
+}
+
+.no-tasks {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #666;
+  padding: 80px;
+  max-height: 50vh;
+}

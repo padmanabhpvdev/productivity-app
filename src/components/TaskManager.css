@@ -1,0 +1,45 @@
+.task-manager {
+  background: white;
+  border-radius: 8px;
+  padding: 60px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  min-height: 350px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.filters button {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filters button.active {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.task-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.clear-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
